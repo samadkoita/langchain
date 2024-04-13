@@ -40,7 +40,6 @@ def test_required_dependencies(poetry_conf: Mapping[str, Any]) -> None:
             "PyYAML",
             "SQLAlchemy",
             "aiohttp",
-            "dataclasses-json",
             "langchain-core",
             "langsmith",
             "numpy",
